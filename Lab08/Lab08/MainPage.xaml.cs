@@ -26,7 +26,7 @@ namespace Lab08
 
         private void BtnDate_Clicked(object sender, EventArgs e)
         {
-            ((NavigationPage)this.Parent).PushAsync(new DatePicker());
+            ((NavigationPage)this.Parent).PushAsync(new Datepicker());
         }
 
         private void BtnForm_Clicked(object sender, EventArgs e)

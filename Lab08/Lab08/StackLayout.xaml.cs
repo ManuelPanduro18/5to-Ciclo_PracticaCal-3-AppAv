@@ -16,5 +16,7 @@ namespace Lab08
         {
             InitializeComponent();
         }
+
+        public object Children { get; internal set; }
     }
 }

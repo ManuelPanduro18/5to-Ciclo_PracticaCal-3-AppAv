@@ -10,8 +10,12 @@ using Xamarin.Forms.Xaml;
 namespace Lab08
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class DatePicker : ContentPage
+    public partial class Datepicker : ContentPage
     {
+        public Datepicker()
+        {
+            InitializeComponent();
+        }
         void OnDateSelected(object sender, DateChangedEventArgs args)
         {
             Recalculate();
