@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Lab08.MainPage">
+
+    <StackLayout>
+        <Label x:Name="label"        
+               Text="Click the Button below"      
+               FontSize="Large"        
+               VerticalOptions="CenterAndExpand"          
+               HorizontalOptions="Center" />
+        
+        <Button Text="StackLayout"       
+                VerticalOptions="CenterAndExpand"    
+                HorizontalOptions="Center"
+                x:Name="btnStackL"/>
+
+        <Button Text="Grid"       
+                VerticalOptions="CenterAndExpand"    
+                HorizontalOptions="Center"
+                x:Name="btngrid"/>
+
+        <Button Text="Hierchical"       
+                VerticalOptions="CenterAndExpand"    
+                HorizontalOptions="Center" 
+                x:Name="btnHierchical"/>
+
+        <Button Text="Tabbed Page"       
+                VerticalOptions="CenterAndExpand"    
+                HorizontalOptions="Center"
+                x:Name="btnTab"/>
+
+        <Button Text="Form"       
+                VerticalOptions="CenterAndExpand"    
+                HorizontalOptions="Center"
+                x:Name="btnForm"/>
+
+        <Button Text="Datepicker"       
+                VerticalOptions="CenterAndExpand"    
+                HorizontalOptions="Center"
+                x:Name="btnDate"/>
+    </StackLayout>
+
+</ContentPage>
