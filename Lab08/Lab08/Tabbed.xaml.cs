@@ -10,11 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace Lab08
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Tabbed : ContentPage
+    public partial class Tabbed : TabbedPage
     {
         public Tabbed()
         {
             InitializeComponent();
+            btnClose.Clicked += async (sender, e) =>
+            {
+                await Navigation.PopAsync();
+            };
         }
     }
 }
